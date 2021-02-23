@@ -1,6 +1,10 @@
 ---
 title: "First R Markdown File"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -27,3 +31,18 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Hello
+## I am Aayush
+### Who are you ?
+
+- **a**
+- *b*
+- c
+- d
+
+```{r}
+print ("hello")
+
+```
+
